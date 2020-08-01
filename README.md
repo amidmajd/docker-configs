@@ -17,3 +17,8 @@
     - Port : `5432`
     - Username : `admin`
     - Password : `password`
+
+<br>
+
+## Wordpress + MySQL + PHPmyAdmin
+
