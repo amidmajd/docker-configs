@@ -20,5 +20,13 @@
 
 <br>
 
+
+## Docker Compose For MongoDB
+### Root Credentials:
+   - username: `admin`
+   - password: `password`
+
+<br>
+
 ## Wordpress + MySQL + PHPmyAdmin
 
