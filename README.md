@@ -22,7 +22,15 @@
 
 
 ## Docker Compose For MongoDB
-### Root Credentials:
+### Credentials:
+   - username: `admin`
+   - password: `password`
+
+<br>
+
+
+## Docker Compose For Redis & RedisInsights
+### Credentials:
    - username: `admin`
    - password: `password`
 
