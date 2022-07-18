@@ -6,7 +6,7 @@ services:
     container_name: redis
     environment:
       - REDIS_PASSWORD=password
-      - REDIS_DISABLE_COMMANDS=FLUSHDB,FLUSHALL
+      # - REDIS_DISABLE_COMMANDS=FLUSHDB,FLUSHALL
     ports:
       - 6379:6379
     networks:
