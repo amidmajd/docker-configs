@@ -1,0 +1,24 @@
+version: "3.7"
+
+services:
+  sql-server-db:
+    container_name: sql-server-db
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    restart: always
+    ports:
+      - "1433:1433"
+    environment:
+      MSSQL_PID: "Developer"
+      MSSQL_SA_PASSWORD: "super_password"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - mysql-data:/var/lib/mssqlql/data
+    networks:
+      - mysql
+
+networks:
+  mysql:
+    driver: bridge
+
+volumes:
+  mysql-data:
