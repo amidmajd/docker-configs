@@ -12,7 +12,7 @@ services:
       MSSQL_SA_PASSWORD: "super_password"
       ACCEPT_EULA: "Y"
     volumes:
-      - mysql-data:/var/lib/mssqlql/data
+      - ./mssql-data:/var/opt/mssql/data
     networks:
       - mysql
 
