@@ -1,0 +1,16 @@
+version: "3.0"
+
+services:
+  tf-jupyter-lab:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./ml:/ml
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
