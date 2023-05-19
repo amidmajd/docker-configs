@@ -1,6 +1,15 @@
 jupyterlab
+ipywidgets
+widgetsnbextension
+pandas-profiling
+
 pandas
 numpy
 matplotlib
+scikit-learn
+torch
+torchvision
+tensorboard
+transformers
 
-## other env dependencies here
+## other project dependencies
