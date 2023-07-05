@@ -3,13 +3,15 @@ ipywidgets
 widgetsnbextension
 pandas-profiling
 
+transformers
 pandas
 numpy
 matplotlib
+seaborn
 scikit-learn
+scipy
 torch
 torchvision
 tensorboard
-transformers
 
 ## other project dependencies

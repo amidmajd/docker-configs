@@ -6,7 +6,7 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ./ml:/ml
+      - ./src:/src
     restart: always
     deploy:
       resources:

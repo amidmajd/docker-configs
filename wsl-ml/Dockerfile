@@ -1,6 +1,6 @@
 FROM nvcr.io/nvidia/pytorch:23.01-py3
 
-WORKDIR /ml
+WORKDIR /src
 
 COPY ./requirements.txt requirements.txt
 RUN pip install -r requirements.txt
