@@ -4,6 +4,7 @@ widgetsnbextension
 pandas-profiling
 
 transformers
+datasets
 pandas
 numpy
 matplotlib
