@@ -8,4 +8,4 @@
     - Select ipython kernel
 * to make container's mounted volume writable by user, run this: `chmod a+rwx -R src/`
 * For auto completion to work properly in VScode, a few packages should be installed locally (inside wsl and not docker container)
-    - `pip install transformers datasets pandas numpy matplotlib seaborn scikit-learn scipy torch torchvision tensorboard`
+    - `pip install transformers datasets pandas numpy matplotlib seaborn scikit-learn scipy torch torchvision tensorboard lightning`
