@@ -13,7 +13,11 @@ scikit-learn
 scipy
 torch
 torchvision
+torchview
+graphviz
 tensorboard
 lightning
+nltk
+gensim
 
 ## other project dependencies
