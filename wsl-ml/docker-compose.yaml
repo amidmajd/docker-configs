@@ -1,7 +1,7 @@
 version: "3.0"
 
 services:
-  tf-jupyter-lab:
+  nvidia-pytorch:
     build: .
     ports:
       - "8888:8888"
